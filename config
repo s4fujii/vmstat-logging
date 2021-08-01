@@ -1,0 +1,5 @@
+# Use LF line-ending in this file
+INTERVAL 10
+# NOTE: you also need to change logrotate.conf if you changed the following two lines
+LOGFILE /var/log/vmstat.log
+PIDFILE /var/run/vmstat.pid
